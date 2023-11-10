@@ -123,8 +123,8 @@ function Page({
     <>
       <Meta
         as={Head}
-        title="A Home for High School Hackers"
-        description="Hack Club is a global nonprofit network of high school makers & student-led coding clubs where young people build the agency, the network, & the technical talent to think big & do big things in the world."
+        title="Paper Boat Jewlery Official Site"
+        description=""
         image="https://cloud-lgl7kg862-hack-club-bot.vercel.app/0start__1_.png"
       />
       <Head>
@@ -169,14 +169,14 @@ function Page({
         >
           <BGImg
             src={OuternetImgFile}
-            alt="Hack Clubbers gather in the great outdoors of Cabot, VT, for an experience unlike any other: Outernet. 📸 Photo by Matt Gleich, Hack Clubber in NH!"
+            alt="Product_name"
             priority
             gradient="linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.45))"
           />
           <Announcement
-            copy="Hop OnBoard and create your first PCB"
-            caption="Join 1,000 others to create your first circuit board."
-            href="https://hackclub.com/onboard/"
+            copy="Welcome!"
+            caption="Welcome to the official PBJ website!"
+            //href="https://hackclub.com/onboard/"
             iconLeft="idea"
             color="primary"
           />
@@ -200,7 +200,7 @@ function Page({
               }}
               as="h4"
             >
-              Welcome to Hack&nbsp;Club
+              Paper Boat Jewlery
             </Text>
             <Heading>
               <Text
@@ -216,7 +216,7 @@ function Page({
                   width: '100%'
                 }}
               >
-                We are <Comma>{slackData.total_members_count}</Comma>{' '}
+                We are a small business selling ____
                 <Text
                   sx={{
                     color: 'transparent',
@@ -225,33 +225,10 @@ function Page({
                     whiteSpace: 'nowrap'
                   }}
                 >
-                  <Text
-                    onClick={() => {
-                      setHover(false)
-                      !reveal ? setReveal(true) : setReveal(false)
-                    }}
-                    sx={{
-                      // lineHeight: 0.875,
-                      px: 2,
-                      backgroundColor: 'red',
-                      position: 'absolute',
-                      borderRadius: 10,
-                      transform: 'rotate(-3deg) translateY(-5px)',
-                      color: 'white',
-                      whiteSpace: 'nowrap',
-                      textDecoration: 'none',
-                      '&:hover': {
-                        cursor: 'pointer'
-                      }
-                    }}
-                    aria-hidden="true"
-                  >
-                    teen hackers
-                  </Text>
-                  teen hackers
+              
+                  
                 </Text>
-                <br sx={{ display: ['inline', 'none', 'none'] }} /> from around
-                the world who code together
+                <br sx={{ display: ['inline', 'none', 'none'] }} /> 
               </Text>
               <Button
                 variant="ctaLg"
@@ -260,7 +237,7 @@ function Page({
                 mt={[3, 0, 0]}
                 sx={{ transformOrigin: 'center left' }}
               >
-                Join our community
+                Buy Now!
               </Button>
             </Heading>
           </Box>
@@ -274,7 +251,7 @@ function Page({
           >
             <Badge
               as="a"
-              href="https://outernet.hackclub.com/"
+              //href="https://outernet.hackclub.com/"
               target="_blank"
               rel="noopener"
               variant="pill"
@@ -289,9 +266,9 @@ function Page({
                 transition: '0.3s ease'
                 // mixBlendMode: 'multiply'
               }}
-              title="📸 Photo by Matt Gleich, Hack Clubber in NH!"
+              title="This is our very first product"
             >
-              Hackers at Outernet in Vermont
+              Product_name
             </Badge>
           </Box>
         </Box>
