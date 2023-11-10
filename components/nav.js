@@ -7,7 +7,7 @@ import Icon from './icon'
 import Flag from './flag'
 import ScrollLock from 'react-scrolllock'
 import NextLink from 'next/link'
-
+import logo from '../pages/logo.png'
 const rgbaBgColor = (props, opacity) =>
   `rgba(
     ${props.bgColor[0]},
@@ -137,21 +137,21 @@ const NavBar = styled(Box)`
 const Navigation = props => (
   <NavBar role="navigation" {...props}>
     <NextLink href="/clubs" passHref>
-      <Link>Clubs</Link>
+      <Link>Buy Now!</Link>
     </NextLink>
     <NextLink href="/hcb" passHref>
-      <Link>Fiscal&nbsp;Sponsorship</Link>
+      <Link>About Us</Link>
     </NextLink>
     <NextLink href="/hackathons" passHref>
-      <Link>Hackathons</Link>
+      <Link>Contact Us</Link>
     </NextLink>
-    <NextLink href="/slack" passHref>
+    {/* <NextLink href="/slack" passHref>
       <Link>Slack</Link>
     </NextLink>
     <Link href="https://scrapbook.hackclub.com/">Scrapbook</Link>
-    <Link href="https://jams.hackclub.com/">Jams</Link>
+    <Link href="https://jams.hackclub.com/">Jams</Link> */}
     <NextLink href="/onboard" passHref>
-      <Link>OnBoard</Link>
+      <Link>Login</Link>
     </NextLink>
   </NavBar>
 )

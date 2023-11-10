@@ -2,7 +2,7 @@ import theme from '../lib/theme'
 import styled from '@emotion/styled'
 import { css, keyframes } from '@emotion/react'
 import Link from 'next/link'
-
+import logo from '../pages/logo.png'
 const waveFlag = keyframes`
   from {
     transform: rotate(0deg);
@@ -33,7 +33,7 @@ const scrolled = props =>
   `
 
 const Base = styled('a')`
-  background-image: url(https://assets.hackclub.com/flag-orpheus-top.svg);
+  background-image: url(https://media.discordapp.net/attachments/1171930951111147642/1172394512644059228/PBJ_logo_upscaled_and_transparent.png?ex=65602879&is=654db379&hm=07c7bcef85988789cfcd51e202724337da26a0354e411b3cb5cf63446aa27ae3&=&width=598&height=449);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: contain;

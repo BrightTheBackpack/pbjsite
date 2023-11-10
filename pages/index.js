@@ -29,7 +29,7 @@ import GitHub from '../components/index/github'
 import Photo from '../components/photo'
 import Comma from '../components/comma'
 import Haxidraw from '../components/index/cards/haxidraw'
-
+import Logo from '../pages/logo.png'
 /** @jsxImportSource theme-ui */
 
 function Page({
@@ -168,7 +168,9 @@ function Page({
           }}
         >
           <BGImg
-            src={OuternetImgFile}
+            src={'https://cloud-6btlxhe7h-hack-club-bot.vercel.app/0white_flag_of_surrender.svg.png'}
+            width= '100px'
+            height = '50px'
             alt="Product_name"
             priority
             gradient="linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.45))"
