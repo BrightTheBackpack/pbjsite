@@ -110,7 +110,7 @@ export default function Slack({ data, slackKey, events }) {
             with them.{' '}
           </Text>
           <Event events={events} />
-          <Buttons id="13" link="/slack" icon="slack" primary="purple">
+          <Buttons id="13" link="/slack" icon="slack" primary="navy">
             Join our Slack
           </Buttons>
           <Grid

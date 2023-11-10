@@ -160,7 +160,7 @@ function Page({
           as="header"
           sx={{
             bg: 'dark',
-            pt: [5, 6],
+            pt: [5, 5],
             pb: [2, 3],
             textAlign: 'left',
             position: 'relative',
@@ -175,26 +175,21 @@ function Page({
             priority
             gradient="linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.45))"
           />
-          <Announcement
-            copy="Welcome!"
-            caption="Welcome to the official PBJ website!"
-            //href="https://hackclub.com/onboard/"
-            iconLeft="idea"
-            color="primary"
-          />
           <Box
             sx={{
               width: '90vw',
               maxWidth: [null, 'layout'],
               position: 'relative',
               mx: 'auto',
-              py: [4, 4, 4],
+              py: [4, 4, 0],
               textShadow: 'text'
             }}
           >
             <Text
               variant="eyebrow"
               sx={{
+                textAlign: 'center', 
+                fontSize: ['63px', '79px', '96px'],
                 color: 'sunken',
                 pb: 2,
                 position: 'relative',
@@ -210,15 +205,16 @@ function Page({
                 variant="title"
                 sx={{
                   color: 'white',
+                  mt: [3, 6],
                   mb: [3, 4],
                   zIndex: 1,
                   textAlign: 'left',
-                  fontSize: ['42px', '52px', '64px'],
+                  fontSize: ['30px', '36px', '46px'],
                   lineHeight: 1.2,
                   width: '100%'
                 }}
               >
-                We are a small business selling ____
+                We are a small business selling jewlery
                 <Text
                   sx={{
                     color: 'transparent',
@@ -288,7 +284,7 @@ function Page({
               as="h1"
               sx={{ fontSize: ['36px', '48px', '56px'] }}
             >
-              Discover the{' '}
+              Our {' '}
               <Text
                 as="span"
                 sx={{
@@ -302,9 +298,8 @@ function Page({
                   '-webkit-text-fill-color': 'transparent'
                 }}
               >
-                joy of code
+                Mission Statement
               </Text>
-              , together.
             </Text>
             <Text
               variant="subtitle"
@@ -315,7 +310,7 @@ function Page({
                 maxWidth: '62ch'
               }}
             >
-              Every day, thousands of Hack&nbsp;Clubbers gather online and
+              Every day, thousands of Hack Clubbers gather online and
               in-person to make things with code. Whether you’re a beginner
               programmer or have years of experience, there’s a place for you at
               Hack&nbsp;Club. Read about our{' '}
@@ -923,7 +918,7 @@ function Page({
                   icon="slack"
                   color="white"
                   name="Join Our Slack"
-                  desc="Connect with other technical teenagers on Slack and hack on things together."
+                  desc="Connect with other technical teenagers on slack and hack on things together."
                   sx={{
                     p: {
                       fontSize: ['18px', '20px', '22px']
