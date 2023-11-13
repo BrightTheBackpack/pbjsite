@@ -6,7 +6,7 @@ const makeTitle = (title, name) =>
 const Meta = ({
   as: ElementType = React.Fragment,
   name = 'Hack Club', // site name
-  title = 'Hack Club', // page title
+  title = 'PBJ', // page title
   description,
   image,
   color = '#ec3750',
