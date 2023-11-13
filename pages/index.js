@@ -127,6 +127,7 @@ function Page({
         description=""
         image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
       />
+       <title>Fiscal Sponsorship | HCB</title>
       <Head>
         <meta
           property="og:logo"
