@@ -2,7 +2,7 @@ import { Badge, Box, Button, Card, Flex, Grid, Heading, Link, Text } from 'theme
 import React, { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Meta from '../pages/components/meta'
+import Meta from '@hackclub/meta'
 import Nav from '../components/nav'
 import BGImg from '../components/background-image'
 import ForceTheme from '../components/force-theme'
