@@ -128,7 +128,7 @@ function Page({
         image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
       />
      
-      <Head>
+    <Head>
         <meta
           property="og:logo"
           content="https://assets.hackclub.com/icon-rounded.png"
