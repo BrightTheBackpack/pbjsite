@@ -121,22 +121,19 @@ function Page({
 
   return (
     
-      // <Meta
-      //   as={Head}
-      //   title="Paper Boat Jewlery Official Site"
-      //   description=""
-      //   image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
-      // />
+      <Meta
+        as={Head}
+        title="Paper Boat Jewlery Official Site"
+        description=""
+        image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
+      />
      
       <Head>
         <meta
           property="og:logo"
           content="https://assets.hackclub.com/icon-rounded.png"
           size="512x512"
-          
-          image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
-        />,
-        <title>Paper Boat Jewlery Official Site</title>
+        />
       </Head>
       <ForceTheme theme="light" />
       <Nav />
