@@ -125,7 +125,7 @@ function Page({
         as={Head}
         title="Paper Boat Jewlery Official Site"
         description=""
-        image="https://cloud-lgl7kg862-hack-club-bot.vercel.app/0start__1_.png"
+        image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
       />
       <Head>
         <meta
