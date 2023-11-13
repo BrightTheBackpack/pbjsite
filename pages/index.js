@@ -120,7 +120,7 @@ function Page({
   }, [count, images.length])
 
   return (
-    <>
+    
       // <Meta
       //   as={Head}
       //   title="Paper Boat Jewlery Official Site"
