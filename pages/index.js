@@ -2,7 +2,7 @@ import { Badge, Box, Button, Card, Flex, Grid, Heading, Link, Text } from 'theme
 import React, { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import Meta from '@hackclub/meta'
+//import Meta from '@hackclub/meta'
 import Nav from '../components/nav'
 import BGImg from '../components/background-image'
 import ForceTheme from '../components/force-theme'
@@ -127,7 +127,7 @@ function Page({
         description=""
         image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
       />
-       <title>Fiscal Sponsorship | HCB</title>
+     
       <Head>
         <meta
           property="og:logo"
