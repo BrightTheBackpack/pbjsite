@@ -135,7 +135,7 @@ function Page({
           size="512x512"
           
           image="https://cloud-5yhxgjm8d-hack-club-bot.vercel.app/0logo.png"
-        />
+        />,
         <title>Paper Boat Jewlery Official Site</title>
       </Head>
       <ForceTheme theme="light" />
